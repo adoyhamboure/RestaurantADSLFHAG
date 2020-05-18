@@ -1,0 +1,23 @@
+{
+    "name": "adslfhag/restaurant-adslfhag",
+    "type": "typo3-cms-extension",
+    "description": "Carte de restaurant",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdSlFhAg\\RestaurantAdslfhag\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AdSlFhAg\\RestaurantAdslfhag\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "adslfhag/restaurant-adslfhag": "self.version",
+        "typo3-ter/restaurant-adslfhag": "self.version"
+    }
+}

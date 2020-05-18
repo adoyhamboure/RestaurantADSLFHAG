@@ -1,0 +1,57 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Carte de restaurant",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": true,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "restaurant_adslfhag",
+        "name": "Restaurant ADSLFHAG",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "DAWIN",
+                "email": "adrien.doyhamboure@etu.u-bordeaux.fr",
+                "name": "Adrien Doyhamboure",
+                "role": "Developer"
+            },
+            {
+                "company": "DAWIN",
+                "email": "simon.lasbrugnas@etu.u-bordeaux.fr",
+                "name": "Simon Lasbrugnas",
+                "role": "Developer"
+            },
+            {
+                "company": "DAWIN",
+                "email": "flavien.henry-szatkowski@etu.u-bordeaux.fr",
+                "name": "Flavien Henry--Swaztowski",
+                "role": "Developer"
+            },
+            {
+                "company": "DAWIN",
+                "email": "alexandre.gendre@etu.u-bordeaux.fr",
+                "name": "Alexandre Gendre",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "AdSlFhAg"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-05-18 03:54",
+        "extension_builder_version": "9.10.2",
+        "be_user": " (1)"
+    }
+}
