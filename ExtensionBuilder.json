@@ -310,7 +310,7 @@
                     "_default4_delete": false,
                     "customActions": []
                 },
-                "name": "Drink",
+                "name": "Drinks",
                 "objectsettings": {
                     "addDeletedField": true,
                     "addHiddenField": true,
@@ -597,7 +597,7 @@
             },
             {
                 "actions": {
-                    "controllerActionCombinations": "Drink=>list",
+                    "controllerActionCombinations": "Drinks=>list",
                     "noncacheableActions": "",
                     "switchableActions": ""
                 },
@@ -705,7 +705,7 @@
         }
     ],
     "log": {
-        "last_modified": "2020-06-08 01:40",
+        "last_modified": "2020-06-08 03:36",
         "extension_builder_version": "9.10.2",
         "be_user": " (1)"
     }

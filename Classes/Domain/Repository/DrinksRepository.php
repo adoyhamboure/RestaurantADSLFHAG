@@ -18,7 +18,7 @@ namespace AdSlFhAg\RestaurantAdslfhag\Domain\Repository;
 /**
  * The repository for Drinks
  */
-class DrinkRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
+class DrinksRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
 
     /**

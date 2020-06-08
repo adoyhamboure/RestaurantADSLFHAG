@@ -436,7 +436,7 @@ class MenuTest extends \TYPO3\TestingFramework\Core\Unit\UnitTestCase
     /**
      * @test
      */
-    public function getDrinksReturnsInitialValueForDrink()
+    public function getDrinksReturnsInitialValueForDrinks()
     {
         $newObjectStorage = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
         self::assertEquals(
@@ -448,9 +448,9 @@ class MenuTest extends \TYPO3\TestingFramework\Core\Unit\UnitTestCase
     /**
      * @test
      */
-    public function setDrinksForObjectStorageContainingDrinkSetsDrinks()
+    public function setDrinksForObjectStorageContainingDrinksSetsDrinks()
     {
-        $drink = new \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink();
+        $drink = new \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks();
         $objectStorageHoldingExactlyOneDrinks = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
         $objectStorageHoldingExactlyOneDrinks->attach($drink);
         $this->subject->setDrinks($objectStorageHoldingExactlyOneDrinks);
@@ -467,7 +467,7 @@ class MenuTest extends \TYPO3\TestingFramework\Core\Unit\UnitTestCase
      */
     public function addDrinkToObjectStorageHoldingDrinks()
     {
-        $drink = new \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink();
+        $drink = new \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks();
         $drinksObjectStorageMock = $this->getMockBuilder(\TYPO3\CMS\Extbase\Persistence\ObjectStorage::class)
             ->setMethods(['attach'])
             ->disableOriginalConstructor()
@@ -484,7 +484,7 @@ class MenuTest extends \TYPO3\TestingFramework\Core\Unit\UnitTestCase
      */
     public function removeDrinkFromObjectStorageHoldingDrinks()
     {
-        $drink = new \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink();
+        $drink = new \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks();
         $drinksObjectStorageMock = $this->getMockBuilder(\TYPO3\CMS\Extbase\Persistence\ObjectStorage::class)
             ->setMethods(['detach'])
             ->disableOriginalConstructor()

@@ -16,23 +16,23 @@ namespace AdSlFhAg\RestaurantAdslfhag\Controller;
  *
  ***/
 /**
- * DrinkController
+ * DrinksController
  */
-class DrinkController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+class DrinksController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
 
     /**
-     * drinkRepository
+     * drinksRepository
      * 
-     * @var \AdSlFhAg\RestaurantAdslfhag\Domain\Repository\DrinkRepository
+     * @var \AdSlFhAg\RestaurantAdslfhag\Domain\Repository\DrinksRepository
      * @inject
      */
-    protected $drinkRepository = null;
+    protected $drinksRepository = null;
 
     /**
      * action list
      * 
-     * @param AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink
+     * @param AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinkss
      * @return void
      */
     public function listAction()

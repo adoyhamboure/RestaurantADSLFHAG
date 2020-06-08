@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2020-06-08T13:40:07Z" product-name="restaurant_adslfhag">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-06-08T15:36:54Z" product-name="restaurant_adslfhag">
 		<header/>
 		<body>
 			<trans-unit id="tx_restaurantadslfhag_domain_model_menu">
@@ -66,25 +66,25 @@
 			<trans-unit id="tx_restaurantadslfhag_domain_model_dish.frozens">
 				<source>Frozens</source>
 			</trans-unit>
-			<trans-unit id="tx_restaurantadslfhag_domain_model_drink">
-				<source>Drink</source>
+			<trans-unit id="tx_restaurantadslfhag_domain_model_drinks">
+				<source>Drinks</source>
 			</trans-unit>
-			<trans-unit id="tx_restaurantadslfhag_domain_model_drink.name">
+			<trans-unit id="tx_restaurantadslfhag_domain_model_drinks.name">
 				<source>Name</source>
 			</trans-unit>
-			<trans-unit id="tx_restaurantadslfhag_domain_model_drink.price">
+			<trans-unit id="tx_restaurantadslfhag_domain_model_drinks.price">
 				<source>Price</source>
 			</trans-unit>
-			<trans-unit id="tx_restaurantadslfhag_domain_model_drink.description">
+			<trans-unit id="tx_restaurantadslfhag_domain_model_drinks.description">
 				<source>Description</source>
 			</trans-unit>
-			<trans-unit id="tx_restaurantadslfhag_domain_model_drink.alcoholized">
+			<trans-unit id="tx_restaurantadslfhag_domain_model_drinks.alcoholized">
 				<source>Alcoholized</source>
 			</trans-unit>
-			<trans-unit id="tx_restaurantadslfhag_domain_model_drink.volume">
+			<trans-unit id="tx_restaurantadslfhag_domain_model_drinks.volume">
 				<source>Volume</source>
 			</trans-unit>
-			<trans-unit id="tx_restaurantadslfhag_domain_model_drink.category">
+			<trans-unit id="tx_restaurantadslfhag_domain_model_drinks.category">
 				<source>Category</source>
 			</trans-unit>
 			<trans-unit id="tx_restaurantadslfhag_domain_model_category">

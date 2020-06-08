@@ -290,7 +290,7 @@ return [
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectMultipleSideBySide',
-                'foreign_table' => 'tx_restaurantadslfhag_domain_model_drink',
+                'foreign_table' => 'tx_restaurantadslfhag_domain_model_drinks',
                 'MM' => 'tx_restaurantadslfhag_menu_drink_mm',
                 'size' => 10,
                 'autoSizeMax' => 30,

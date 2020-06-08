@@ -102,7 +102,7 @@ class Menu extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Les boissons
      * 
-     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink>
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks>
      * @lazy
      */
     protected $drinks = null;
@@ -445,10 +445,10 @@ class Menu extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Adds a Drinks
      * 
-     * @param \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink $drink
+     * @param \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks $drink
      * @return void
      */
-    public function addDrink(\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink $drink)
+    public function addDrink(\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks $drink)
     {
         $this->drinks->attach($drink);
     }
@@ -456,10 +456,10 @@ class Menu extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Removes a Drinks
      * 
-     * @param \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink $drinkToRemove The Drink to be removed
+     * @param \AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks $drinkToRemove The Drinks to be removed
      * @return void
      */
-    public function removeDrink(\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink $drinkToRemove)
+    public function removeDrink(\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks $drinkToRemove)
     {
         $this->drinks->detach($drinkToRemove);
     }
@@ -467,7 +467,7 @@ class Menu extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Returns the drinks
      * 
-     * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink> drinks
+     * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks> drinks
      */
     public function getDrinks()
     {
@@ -477,7 +477,7 @@ class Menu extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Sets the drinks
      * 
-     * @param \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drink> $drinks
+     * @param \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\AdSlFhAg\RestaurantAdslfhag\Domain\Model\Drinks> $drinks
      * @return void
      */
     public function setDrinks(\TYPO3\CMS\Extbase\Persistence\ObjectStorage $drinks)

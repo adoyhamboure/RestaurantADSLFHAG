@@ -49,8 +49,8 @@ call_user_func(
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_restaurantadslfhag_domain_model_dish', 'EXT:restaurant_adslfhag/Resources/Private/Language/locallang_csh_tx_restaurantadslfhag_domain_model_dish.xlf');
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_restaurantadslfhag_domain_model_dish');
 
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_restaurantadslfhag_domain_model_drink', 'EXT:restaurant_adslfhag/Resources/Private/Language/locallang_csh_tx_restaurantadslfhag_domain_model_drink.xlf');
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_restaurantadslfhag_domain_model_drink');
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_restaurantadslfhag_domain_model_drinks', 'EXT:restaurant_adslfhag/Resources/Private/Language/locallang_csh_tx_restaurantadslfhag_domain_model_drinks.xlf');
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_restaurantadslfhag_domain_model_drinks');
 
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_restaurantadslfhag_domain_model_category', 'EXT:restaurant_adslfhag/Resources/Private/Language/locallang_csh_tx_restaurantadslfhag_domain_model_category.xlf');
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_restaurantadslfhag_domain_model_category');

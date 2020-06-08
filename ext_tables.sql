@@ -34,9 +34,9 @@ CREATE TABLE tx_restaurantadslfhag_domain_model_dish (
 );
 
 #
-# Table structure for table 'tx_restaurantadslfhag_domain_model_drink'
+# Table structure for table 'tx_restaurantadslfhag_domain_model_drinks'
 #
-CREATE TABLE tx_restaurantadslfhag_domain_model_drink (
+CREATE TABLE tx_restaurantadslfhag_domain_model_drinks (
 
 	name varchar(255) DEFAULT '' NOT NULL,
 	price double(11,2) DEFAULT '0.00' NOT NULL,

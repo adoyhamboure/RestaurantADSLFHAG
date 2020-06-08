@@ -15,7 +15,7 @@ call_user_func(
             [
                 'Menu' => '',
                 'Dish' => '',
-                'Drink' => '',
+                'Drinks' => '',
                 'Suggestion' => ''
             ]
         );
@@ -36,13 +36,13 @@ call_user_func(
             'AdSlFhAg.RestaurantAdslfhag',
             'Pi3',
             [
-                'Drink' => 'list'
+                'Drinks' => 'list'
             ],
             // non-cacheable actions
             [
                 'Menu' => '',
                 'Dish' => '',
-                'Drink' => '',
+                'Drinks' => '',
                 'Suggestion' => ''
             ]
         );
@@ -57,7 +57,7 @@ call_user_func(
             [
                 'Menu' => '',
                 'Dish' => '',
-                'Drink' => '',
+                'Drinks' => '',
                 'Suggestion' => ''
             ]
         );

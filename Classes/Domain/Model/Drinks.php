@@ -18,7 +18,7 @@ namespace AdSlFhAg\RestaurantAdslfhag\Domain\Model;
 /**
  * Boisson
  */
-class Drink extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
+class Drinks extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 {
 
     /**
