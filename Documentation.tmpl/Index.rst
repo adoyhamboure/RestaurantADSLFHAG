@@ -48,7 +48,7 @@ Restaurant ADSLFHAG
     2020
 
 :Author:
-    Adrien Doyhamboure, Simon Lasbrugnas, Flavien Henry--Swaztowski, Alexandre Gendre
+    Adrien Doyhamboure, Simon Lasbrugnas, Flavien Henry--Szatkowski, Alexandre Gendre
 
 :Email:
     adrien.doyhamboure@etu.u-bordeaux.fr, simon.lasbrugnas@etu.u-bordeaux.fr, flavien.henry-szatkowski@etu.u-bordeaux.fr, alexandre.gendre@etu.u-bordeaux.fr

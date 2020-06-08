@@ -1,0 +1,46 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+
+	This Template is responsible for creating a table of domain objects.
+
+	If you modify this template, do not forget to change the overwrite settings
+	in /Configuration/ExtensionBuilder/settings.yaml:
+	  Resources:
+		Private:
+		  Templates:
+			List.html: keep
+
+	Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+	<f:section name="content">
+		<h1>Listing for Drinks</h1>
+
+		<f:flashMessages />
+
+		<table  class="tx_restaurantadslfhag" >
+			<tr>
+				<th><f:translate key="tx_restaurantadslfhag_domain_model_drinks.name" /></th>
+				<th><f:translate key="tx_restaurantadslfhag_domain_model_drinks.price" /></th>
+				<th><f:translate key="tx_restaurantadslfhag_domain_model_drinks.description" /></th>
+				<th><f:translate key="tx_restaurantadslfhag_domain_model_drinks.alcoholized" /></th>
+				<th><f:translate key="tx_restaurantadslfhag_domain_model_drinks.volume" /></th>
+				<th> </th>
+				<th> </th>
+			</tr>
+
+			<f:for each="{drinkss}" as="drinks">
+				<tr>
+					<td><f:link.action action="show" arguments="{drinks : drinks}"> {drinks.name}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{drinks : drinks}"> {drinks.price}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{drinks : drinks}"> {drinks.description}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{drinks : drinks}"> {drinks.alcoholized}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{drinks : drinks}"> {drinks.volume}</f:link.action></td>
+					<td><f:link.action action="edit" arguments="{drinks : drinks}">Edit</f:link.action></td>
+					<td><f:link.action action="delete" arguments="{drinks : drinks}">Delete</f:link.action></td>
+				</tr>
+			</f:for>
+		</table>
+
+		<f:link.action action="new">New Drinks</f:link.action>
+	</f:section>
+</html>
