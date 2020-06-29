@@ -20,4 +20,19 @@ namespace AdSlFhAg\RestaurantAdslfhag\Domain\Repository;
  */
 class SuggestionRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
+
+    public function currents(){
+        $query = $this->createQuery();
+
+        $now = (new \DateTime)->format('Y-m-d H:i:s');
+
+        $constraint = $query->logicalAnd([
+            $query->lessThanOrEqual('start', $now),
+            $query->greaterThan('end', $now)
+        ]);
+
+        return $query
+            ->matching($constraint)
+            ->execute();
+    }
 }
