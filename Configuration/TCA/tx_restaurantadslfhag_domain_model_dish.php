@@ -1,4 +1,5 @@
 <?php
+use AdSlFhAg\RestaurantAdslfhag\Domain\Model\Dish;
 return [
     'ctrl' => [
         'title' => 'LLL:EXT:restaurant_adslfhag/Resources/Private/Language/locallang_db.xlf:tx_restaurantadslfhag_domain_model_dish',
@@ -188,7 +189,10 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
-                    ['-- Label --', 0],
+                    ['Entrée', AdSlFhAg\RestaurantAdslfhag\Domain\Model\Dish::TYPE_ENTRY],
+                    ['Plat Principal', AdSlFhAg\RestaurantAdslfhag\Domain\Model\Dish::TYPE_MAIN],
+                    ['Fromage', AdSlFhAg\RestaurantAdslfhag\Domain\Model\Dish::TYPE_CHEESE],
+                    ['Dessert', AdSlFhAg\RestaurantAdslfhag\Domain\Model\Dish::TYPE_DESSERT]
                 ],
                 'size' => 1,
                 'maxitems' => 1,
